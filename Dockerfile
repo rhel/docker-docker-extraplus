@@ -1,4 +1,4 @@
-FROM docker
+FROM docker:19
 LABEL MAINTAINER="Artyom Nosov <chip@unixstyle.ru>"
 
 ARG DOCKER_COMPOSE_VERSION=1.25.4
