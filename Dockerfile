@@ -6,6 +6,7 @@ ARG DOCKER_COMPOSE_VERSION=1.25.4
 RUN apk add --no-cache \
       bash \
       gcc \
+      git \
       libffi-dev \
       make \
       musl-dev \
