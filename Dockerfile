@@ -12,6 +12,6 @@ RUN apk add --no-cache \
       musl-dev \
       openssl-dev \
       py-pip \
-      python2-dev \
+      python3-dev \
  && pip install --no-cache-dir \
       docker-compose==$DOCKER_COMPOSE_VERSION
